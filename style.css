@@ -16,20 +16,13 @@ header {
     width: 90%;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.produtos, .depoimentos, .contato {
+.produtos, .depoimentos, .contato, .produto {
     padding: 20px;
     background: rgb(226, 218, 218);
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 80%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,22 +34,18 @@ main {
     justify-content: center;
 }
 
-.produto {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 50%;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #FFFFFF;
-    border-radius: 5px;
-    background: rgb(226, 218, 218);
-}
 
 .produto img {
     width: 100px;
     height: 100px;
     margin-right: 10px;
+}
+
+.produto p {
+    flex: 1;
+    text-align: right;
+    word-wrap: break-word;
+    max-width: 100%;
 }
 
 form {
